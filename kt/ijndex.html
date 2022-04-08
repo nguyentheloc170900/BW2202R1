@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+    @media screen and(max-width :576px) {
+        
+    }
+    header{
+        margin: auto;
+        
+        border: 1px solid;
+        height: 30px;
+        background-color: aqua;
+        text-align: center;
+    }
+    aside.left.top.col-3{
+        background-color: brown;
+        border: 1px;
+        text-align: center;
+        float: left;
+        height: 100px;
+        
+    }
+    aside.right.top.col-3{
+        background-color: cornflowerblue;
+        border: 1px solid;
+        text-align: center;
+        float:right;
+        height: 100px;
+    }
+    aside.left.bot.col-3{
+        background-color: brown;
+        border: 1px;
+        text-align: center;
+        float:inline-start;
+        height: 100px;
+
+    }
+    article{
+        background-color: cornflowerblue;
+        border: 1px solid;
+        text-align: center;
+        margin: auto;
+        
+    }
+    footer{
+        background-color: coral;
+        clear: both;
+        height: 20px;
+        border: 1px solid;
+        text-align: center;
+    }
+    
+    
+
+</style>
+<body>
+    <header class="col-12"><div>1</div></header>
+   <aside class="left top col-3"><div>2</div></aside>
+   <aside class="right top col-3"><div>4</div></aside>
+   <aside class="left bot col-3"><div>5</div></aside>
+   <aside class="right bottom col-3"><div>8</div></aside>
+   <article class="col-6"><div>3</div></article>
+   <footer><div>9</div></footer>
+
+
+    
+
+</body>
+</html>
