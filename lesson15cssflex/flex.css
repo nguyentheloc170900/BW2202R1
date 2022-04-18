@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.note{
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+}
+header{
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    padding: 30px;
+
+}
+header div h1{
+    margin-bottom: 10px;
+}
+nav{
+    background-color: chartreuse;
+}
+/* khi hamf main cua no laf flex thif cacs thanh phan ben trong se dan hang ngang */
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    padding: 10px;
+    color: white;
+}
+nav ul li:hover{
+    background-color: gray;
+}
+main{
+    display:flex;
+    /* flex-wrap: wrap; laf xuongs dong neu co chuwx */
+    flex-wrap: wrap;
+}
+aside{
+    flex: 30%;
+    background-color:gold;
+    padding: 30px 10px;
+
+}
+#fakeimg{
+    height: 150px;
+    background-color: brown;
+}
+
+article{
+    flex: 70%;
+    background-color: blue;
+}
+footer{
+    background-color: cornflowerblue;
+}
+@media screen  and(max-width:576px) {
+    nav ul{
+        flex-direction: column;
+    }
+
+}

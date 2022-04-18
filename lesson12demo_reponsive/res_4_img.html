@@ -10,31 +10,68 @@
     * {
         box-sizing: border-box;
     }
-    div{
-        width: 25%;
+    .out-border{
+        width: 100%;
+        padding: 10px;
+        
+    }
+    .out-border>div{
+        width: 100%;
         border: 1px saddlebrown solid;
         float: left;
+        
+        
     }
     img{
    width: 100%; 
     }
+    div>p{
+        text-align: center;
+        padding: 2px;
+    }
+    .bottom{
+        text-align: left;
+    }
     @media screen and (max-width:700px) {
-        div{
+        .out-border{
+            float: left;
             width: 50%;
+        }
+        .bottom{
+            clear: both;
         }
     }
     @media screen  and (max-width:500px){
-        div{
-            width: 100%;
+        .out-border{
+            float: left;
+            width: 25%;
+        }
+        .bottom{
+            clear: both;
         }
     }
-
+    
 </style>
 <body>
-    <div><img src="https://demo.codegym.vn/web/15/gallery/img_fjords.jpg  " alt=""></div>
-    <div><img src="https://demo.codegym.vn/web/15/gallery/img_fjords.jpg  " alt=""></div>
-    <div><img src="https://demo.codegym.vn/web/15/gallery/img_fjords.jpg        " alt=""></div>
-    <div><img src="https://demo.codegym.vn/web/15/gallery/img_fjords.jpg        " alt=""></div>
-    <p></p>
+    <h1>REPONSIVE IMAGE GALLERY</h1>
+    <p><b>Resize the brower window to see the effect</b></p>
+
+    <div class="out-border">
+        <div><img src="https://demo.codegym.vn/web/15/gallery/img_fjords.jpg  " alt=""></div>
+        <p>1</p>
+    </div>
+    <div class="out-border">
+        <div><img src="https://demo.codegym.vn/web/15/gallery/img_fjords.jpg  " alt=""></div>
+        <p>2</p>
+    </div>
+    <div class="out-border">
+        <div><img src="https://demo.codegym.vn/web/15/gallery/img_fjords.jpg        " alt=""></div>
+        <p>3</p>
+    </div>
+    <div class="out-border">
+        <div><img src="https://demo.codegym.vn/web/15/gallery/img_fjords.jpg        " alt=""></div>
+        <p>4</p>
+    </div>
+    <p class="bottom">sdgklnskpjfdpgbjvpefpd;lvsjdpgjseipfjopfjsdoghweophopdg</p>
 </body>
 </html>
