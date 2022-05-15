@@ -1,0 +1,598 @@
+/* header */
+:root{
+    --bggradient:linear-gradient(to bottom,#dd2476,#ff512f)
+}
+header{
+    background: var(--bggradient);
+}
+header a{
+color: aqua;
+}
+.navbar-brand{
+padding-left: 1rem;
+}
+.navbar-item:last-child{
+    padding-right: 10 rem;
+}
+.navbar-item{
+    padding: 0.9rem;
+}
+.nav-link:hover{
+    color: lawngreen;
+}
+/* hết header */
+/* section-1 */
+main .section-1 {
+    padding: 0 0 100px;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    box-sizing: border-box;
+}
+ main .section-1 .container .col-md-6 h1{
+margin: 30px 0 0px;
+color: #1976d2;
+font-size: 42px;
+font-family: 'brandon_textbold';
+font-weight: 500;
+line-height: 1.1;
+padding: 0;
+box-sizing: border-box;
+display: block;
+}
+main .section-1 .container .col-md-6 p{
+    line-height: 1.35;
+    margin:20px 0 ;
+    color: #3d5067;
+    font-size: 22px;
+    font-family:'brandon_textregular' ;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+}
+.groupForm-hrweb .groupForm-inline .input-occount--email{
+    color: #bec3c8;
+    font-size: 14px;
+    min-width: 150px;
+    outline: none;
+    border: 1px solid #dfdfdf;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    appearance: none;
+    padding: 0px 20px;
+    height: 42px;
+    line-height: 42px;
+    float: left;
+    font-family: inherit;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    
+}
+
+
+ .groupForm-inline .btn .input-account--button{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'brandon_textbold';
+    background: blue;
+    text-align: center;
+    padding: 0px 20px;
+    height: 42px;
+    line-height: 42px;
+    float: left;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border: 0;
+    transition: all 0.5s;
+}
+.btn-hover-vertical:hover, .btn-hover-vertical:focus{
+    border-color: #0070d2;
+    background-color: blue;
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn-hover-vertical:hover{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border: 0;
+}
+.groupForm-hrweb .txtnoted {
+    padding: 10px 15px;
+    font-size: 18px;
+    color: #3d5067;
+    font-family: 'brandon_textregular_italic';
+    margin: 0 0 10px;
+    box-sizing: border-box;
+}
+.col-lg-6 .col-md-6 .col-sm-12 .col-xs-12 .owl-lazy{
+    transform-style: preserve-3d;
+    transition: opacity .4s ease;
+    width: auto !important;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    display: block;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+    border: 0;
+    box-sizing: border-box;
+}
+/* hết section-1 */
+/* section-2 */
+main .section-2{
+    margin: 0 -15px 100px;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col-lg-5 .col-md-5 .col-sm-12 .col-xs-12 .lazyload{
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.col-md-7 .col-sm-12 .col-xs-12{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0;
+    padding: 0;
+}
+.container .inforDetail-title h2{
+    letter-spacing: -0.35px;
+    margin: 15px 0 8px;
+    font-size: 36px;
+    color: #1976d2;
+    font-family: 'brandon_textbold';
+    font-weight: 500;
+    line-height: 1.1;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+}
+.container .inforDetail-title .subtitle{
+    margin: 0 0 25px;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #3d5067;
+    font-family: 'brandon_textregular';
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+}
+.container .inforDetail-text ul li .ttbold{
+    display: block;
+    margin: 0 0 4px;
+    color: #3d5067;
+    font-size: 22px;
+    font-family: 'brandon_textmedium';
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container .inforDetail-text li{
+    text-align: -webkit-match-parent;
+}
+.groupAction-hrweb .btn-haraweb{
+    color: #1976d2;
+    font-size: 14px;
+    font-family: 'sfuiText_bold';
+    text-transform: uppercase;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 30px;
+    border: 1px solid #1976d2;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.btn-hover-vertical {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 0.5s;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* hết section-2 */
+/* .section-3 */
+ main .section-3{
+    margin: 0 -15px 100px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 0;
+    box-sizing: border-box;
+    
+ }
+ .col-md-6 .col-sm-6 .col-xs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+ }
+ .container .inforDetail-text ul li .ttbold{
+    display: block;
+    margin: 0 0 4px;
+    color: #3d5067;
+    font-size: 22px;
+    font-family: 'brandon_textmedium';
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .container .inforDetail-text li{
+    text-align: -webkit-match-parent;
+ }
+ .groupAction-hrweb .btn-haraweb {
+    color: #1976d2;
+    font-size: 14px;
+    font-family: 'sfuiText_bold';
+    text-transform: uppercase;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 30px;
+    border: 1px solid #1976d2;
+    display: inline-block;
+    border-radius: 4px;
+}
+.col-lg-6 .col-md-6 .col-xs-12 .lazyloaded{
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* hết .section-3 */
+/* .section-4 */
+main .section-4{
+    margin: 0 -15px 100px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col-lg-6 .col-md-6 .col-sm-12 .col-xs-12 .lazyload{
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.col-md-6 .col-sm-6 .col-xs-12{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0;
+    padding: 0;
+}
+.container .inforDetail-title h3{
+    letter-spacing: -0.35px;
+    margin: 15px 0 8px;
+    font-size: 36px;
+    color: #1976d2;
+    font-family: 'brandon_textbold';
+    font-weight: 500;
+    line-height: 1.1;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+}
+.container .inforDetail-title .subtitle{
+    margin: 0 0 25px;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #3d5067;
+    font-family: 'brandon_textregular';
+}
+.container .inforDetail-text ul li .ttbold{
+    display: block;
+    margin: 0 0 4px;
+    color: #3d5067;
+    font-size: 22px;
+    font-family: 'brandon_textmedium';
+    padding: 0;
+    box-sizing: border-box;
+}
+.container .inforDetail-text li{
+    text-align: -webkit-match-parent;
+}
+.groupAction-hrweb .btn-haraweb{
+    color: #1976d2;
+    font-size: 14px;
+    font-family: 'sfuiText_bold';
+    text-transform: uppercase;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 30px;
+    border: 1px solid #1976d2;
+    display: inline-block;
+    border-radius: 4px;
+}
+.btn-hover-vertical {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* hết .section-4 */
+/* section-5 */
+main .section-5{
+    margin: 0 -15px 100px;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col-md-6 .col-sm-6 .col-xs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+ }
+ .container .inforDetail-title h3{
+    letter-spacing: -0.35px;
+    margin: 15px 0 8px;
+    font-size: 36px;
+    color: #1976d2;
+    font-family: 'brandon_textbold';
+    font-weight: 500;
+    line-height: 1.1;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+}
+.container .inforDetail-title .subtitle{
+    margin: 0 0 25px;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #3d5067;
+    font-family: 'brandon_textregular';
+    padding: 0;
+    box-sizing: border-box;
+}
+ .container .inforDetail-text ul li .ttbold{
+    display: block;
+    margin: 0 0 4px;
+    color: #3d5067;
+    font-size: 22px;
+    font-family: 'brandon_textmedium';
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .container .inforDetail-text li{
+    text-align: -webkit-match-parent;
+ }
+ .groupAction-hrweb .btn-haraweb {
+    color: #1976d2;
+    font-size: 14px;
+    font-family: 'sfuiText_bold';
+    text-transform: uppercase;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 30px;
+    border: 1px solid #1976d2;
+    display: inline-block;
+    border-radius: 4px;
+}
+.col-lg-6 .col-md-6 .col-xs-12 .lazyloaded{
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* hết section-5 */
+/* section-6 */
+main .section-6{
+    margin: 0 -15px 100px;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col-lg-6 .col-md-6 .col-sm-12 .col-xs-12 .lazyload{
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.col-md-6 .col-sm-6 .col-xs-12{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0;
+    padding: 0;
+}
+.container .inforDetail-title h3{
+    letter-spacing: -0.35px;
+    margin: 15px 0 8px;
+    font-size: 36px;
+    color: #1976d2;
+    font-family: 'brandon_textbold';
+    font-weight: 500;
+    line-height: 1.1;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+}
+.container .inforDetail-title .subtitle{
+    margin: 0 0 25px;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #3d5067;
+    font-family: 'brandon_textregular';
+}
+.container .inforDetail-text ul li .ttbold{
+    display: block;
+    margin: 0 0 4px;
+    color: #3d5067;
+    font-size: 22px;
+    font-family: 'brandon_textmedium';
+    padding: 0;
+    box-sizing: border-box;
+}
+.container .inforDetail-text li{
+    text-align: -webkit-match-parent;
+}
+.groupAction-hrweb .btn-haraweb{
+    color: #1976d2;
+    font-size: 14px;
+    font-family: 'sfuiText_bold';
+    text-transform: uppercase;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 30px;
+    border: 1px solid #1976d2;
+    display: inline-block;
+    border-radius: 4px;
+}
+.btn-hover-vertical {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* hết .section-6 */
+/* section-7 */
+main .section-7{
+    background: #f1fbff;
+    padding: 50px 0;
+    display: block;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section-7 .section_mainThemes .groupTitle h2{
+    color: #1976d2;
+    font-size: 36px;
+    margin: 0 0 40px;
+    font-family: 'brandon_textbold';
+    font-weight: 500;
+    line-height: 1.1;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+}
+.row .section_mainThemes{
+    margin-right: -15px;
+    margin-left: -15px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+div{
+    display: block;
+}
+.section-7 .wrapbox-industry-themes .theme-item-hrweb .hrweb-image::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    background: rgba(14, 23, 112, 0.7);
+    transition: opacity 0.16s ease-out;
+    box-sizing: border-box;
+}
+.section-7 .wrapbox-industry-themes .theme-item-hrweb .hrweb-title{
+    font-size: 15px;
+    color: #01579b;
+    letter-spacing: 0.5px;
+    margin: 12px 0 0;
+    padding-left: 10px;
+    display: inline-block;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-7  .wrapbox-industry-button .btn-themestore{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'sfuiText_bold';
+    padding: 10px 20px;
+    background: #1976d2;
+    text-transform: uppercase;
+    border-radius: 2px;
+    transition: opacity 150ms linear,color 150ms linear,padding 200ms linear;
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+/* hết section-7 */
+/* section-8 */
+main .section-8 .title-customers{
+    color: #3d5067;
+    font-size: 36px;
+    margin: 20px auto 70px;
+    max-width: 900px;
+    font-family: 'brandon_textbold';
+    font-weight: 500;
+    line-height: 1.1;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
